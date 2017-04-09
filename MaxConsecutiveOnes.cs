@@ -10,7 +10,6 @@ namespace Algorithms
     public static class MaxConsecutiveOnes
     {
         //Example 1:
-        //Input: [1,1,0,1,1,1]a
         //Output: 3
 
         //Explanation: The first two digits or the last three digits are consecutive 1s.
