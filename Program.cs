@@ -122,18 +122,30 @@ namespace Algorithms
             //}
             ////End Compressed String
 
-            //Reverse Words in String
-            Console.Write("Enter a string:");
+            ////Reverse Words in String
+            //Console.Write("Enter a string:");
+            //string myString = Console.ReadLine();
+
+            ////string reverseString = ReverseStringClass.ReverseString(myString);
+            //string reverseString = ReverseWordsInStringClass.ReverseWordsInString(myString);
+
+            //Console.WriteLine("The reversed string is: " + reverseString);
+
+            //Console.ReadLine();
+
+            ////End Reverse Words in String
+
+            //Student Attendance Record
+            Console.Write("Enter the attendance:");
             string myString = Console.ReadLine();
 
-            //string reverseString = ReverseStringClass.ReverseString(myString);
-            string reverseString = ReverseWordsInStringClass.ReverseWordsInString(myString);
+            bool result = StudentAttendanceRecord.CheckRecord(myString);
 
-            Console.WriteLine("The reversed string is: " + reverseString);
+            Console.WriteLine("result {0}:{1} ", myString, result);
 
             Console.ReadLine();
 
-            //End Reverse Words in String
+            //End Student Attendance Record
 
             Console.ReadLine();
 

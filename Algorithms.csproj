@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="ReverseWordsInString.cs" />
     <Compile Include="ReverseString.cs" />
+    <Compile Include="StudentAttendanceRecord.cs" />
     <Compile Include="StringCompression.cs" />
     <Compile Include="UniqueString.cs" />
     <Compile Include="TwoSum.cs" />
