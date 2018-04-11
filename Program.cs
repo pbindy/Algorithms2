@@ -135,17 +135,25 @@ namespace Algorithms
 
             ////End Reverse Words in String
 
-            //Student Attendance Record
-            Console.Write("Enter the attendance:");
-            string myString = Console.ReadLine();
+            ////Student Attendance Record
+            //Console.Write("Enter the attendance:");
+            //string myString = Console.ReadLine();
 
-            bool result = StudentAttendanceRecord.CheckRecord(myString);
+            //bool result = StudentAttendanceRecord.CheckRecord(myString);
 
-            Console.WriteLine("result {0}:{1} ", myString, result);
+            //Console.WriteLine("result {0}:{1} ", myString, result);
 
-            Console.ReadLine();
+            //Console.ReadLine();
 
-            //End Student Attendance Record
+            ////End Student Attendance Record
+
+            //Camel Case
+            int result = CamelCaseClass.CamelCase("saveChangesInTheEditor");
+            //result = CamelCaseClass.CamelCase2("saveChangesInTheEditor");
+
+            Console.WriteLine("Number of words: {0}", result);
+
+            //End Camel Case
 
             Console.ReadLine();
 
